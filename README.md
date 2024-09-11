@@ -2,17 +2,17 @@
 
 ## Project Overview
 
-**Closet.AI** is a website that allows users to upload images of their clothing items (such as shirts and pants) and generates multiple outfit combinations to help users decide on the best outfit for the day. The site aims to simplify the decision-making process by providing users with a visual representation of outfit combinations. 
+**Healthcare Services** is a comprehensive health and wellness website that helps users manage their fitness, track their health, and plan their nutrition efficiently. The website is divided into three main sections: Health Tracker, Fitness Regime, and Nutrition Planner, each providing unique functionalities to support users in achieving their health goals. This project aims to create a holistic platform that supports users in their journey towards better health through effective tracking, personalized workout plans, and nutritious meal suggestions.
 
-This project demonstrates the deployment of **Closet.AI** using Azure's ARM templates and load balancing across two Virtual Machines (VMs) in different availability zones for high availability and scalability.
+This project demonstrates the deployment of **Healthcare Services** using Azure's ARM templates and load balancing across two Virtual Machines (VMs) in different availability zones for high availability and scalability. 
 
 ## Problem Statement
 
-Selecting outfits from a wardrobe can be time-consuming and tedious. Closet.AI solves this problem by generating outfit combinations from the user's clothing uploads, providing an intuitive and user-friendly interface for decision-making. After building the website, the challenge was to deploy it on Azure using a load-balanced architecture for efficient traffic distribution.
+In an increasingly health-conscious society, individuals seek effective tools to manage and improve their overall well-being. Despite the abundance of standalone health apps and fitness trackers, users often find it challenging to integrate various aspects of their health, such as tracking physical activity, managing fitness routines, and planning nutritious meals, into a cohesive and user-friendly platform.  After building the website, the challenge was to deploy it on Azure using a load-balanced architecture for efficient traffic distribution.
 
 ## Project Goals
 
-- Deploy the **Closet.AI** website on Azure using ARM templates.
+- Deploy the **Healthcare Services** website on Azure using ARM templates.
 - Set up a **Virtual Network (VNet)** with two **Subnets** and a **Network Security Group (NSG)**.
 - Use a **Load Balancer** to distribute traffic between two VMs located in different availability zones.
 - Host the static website on these VMs and make it accessible via the load balancer's frontend IP.
@@ -30,10 +30,9 @@ Selecting outfits from a wardrobe can be time-consuming and tedious. Closet.AI s
 ## Project Steps
 
 ### 1. Website Development
-- **Closet.AI**: A static website allowing users to upload images of clothing items, generating a variety of outfit combinations. 
-
+- **Healthcare Services**:A static comprehensive health and wellness website that helps users manage their fitness, track their health, and plan their nutrition efficiently 
 ### 2. Deploying the Website on GitHub
-- The frontend of **Closet.AI** was uploaded to a public GitHub repository: [Frontend-Closet.AI](https://github.com/abdulrhmn02/Frontend-Closet.AI.git).
+- The frontend of **Healthcare Services** was uploaded to a public GitHub repository: [Website](https://github.com/Indhu2024/Website.git).
 
 ### 3. Azure Deployment Using ARM Templates
 - **Resource Group**: Created using Azure CLI to hold all the resources.
@@ -50,12 +49,12 @@ Selecting outfits from a wardrobe can be time-consuming and tedious. Closet.AI s
   #!/bin/bash
   sudo apt update
   sudo apt install nginx git -y
-  cd /tmp && git clone https://github.com/abdulrhmn02/Frontend-Closet.AI.git mysitee
+  cd /tmp && git clone https://github.com/Indhu2024/Website.git mysitee
   sudo rm -rf /var/www/html/index.nginx-debian.html
   sudo cp -r /tmp/mysitee/* /var/www/html/
   ```
 
-- **VM 2**: Created in Availability Zone 2 with the same configuration as VM 1.
+- **VM 2**: Created in Availability Zone 3 with the same configuration as VM 1.
 
 ### 5. Load Balancer Configuration
 - **Load Balancer**: Configured to distribute traffic between VM 1 and VM 2.
@@ -65,13 +64,32 @@ Selecting outfits from a wardrobe can be time-consuming and tedious. Closet.AI s
   - **Health Probe**: Set up to monitor the health of the VMs and ensure traffic is routed only to healthy VMs.
 
 ### 6. Testing and Accessing the Website
-- After the load balancer deployment, the website became accessible via the frontend IP of the load balancer. Users can interact with **Closet.AI** to generate outfits from their clothing uploads.
+- After the load balancer deployment, the website became accessible via the frontend IP of the load balancer. Users can interact with **Healthcare Services** to generate outfits from their clothing uploads.
 
 ## How to Use Closet.AI
 
-1. Upload your shirt and pant images.
-2. The system will generate multiple outfit combinations for you to choose from.
-3. Explore the generated outfits and get inspired to pick your favorite ensemble.
+### 1. Health Tracker
+**Steps and Calories Burned:**
+ - Input: Users can enter the number of steps they have taken.
+ - Output: The website calculates and displays the number of calories burned based on the entered steps.
+
+**Sleep Tracker:**
+ - Input: Users can provide details on the number of sleep hours and the quality of their sleep.
+ - Output: The system offers personalized suggestions to improve sleep quality, based on the provided data.
+
+### 2. Fitness Regime:
+**Workout Guides:**
+ - Categories: Input categories that include cardio, strength training, and flexibility exercises.
+- Content: Each workout type is accompanied by:
+  - An image demonstrating the exercise.
+  - A step-by-step description of how to perform the exercise correctly.
+
+### 3. Nutrition Planner
+**Meal Planning:**
+ - Input: Users select a day of the week.
+ - Output: Displays a set of healthy food options for all three meals (breakfast, lunch, and dinner) for the selected day.
+ - Additional Information: Includes tips for healthy eating and alternate food options.
+
 
 ## Azure Services and Tools Used
 
