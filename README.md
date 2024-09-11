@@ -32,7 +32,7 @@ In an increasingly health-conscious society, individuals seek effective tools to
 ### 1. Website Development
 - **Healthcare Services**:A static comprehensive health and wellness website that helps users manage their fitness, track their health, and plan their nutrition efficiently 
 ### 2. Deploying the Website on GitHub
-- The frontend of **Healthcare Services** was uploaded to a public GitHub repository: [Website](https://github.com/Indhu2024/Website.git).
+- The frontend of **Healthcare Services** was uploaded to a public GitHub repository: [Healthcare Services](https://github.com/Indhu2024/Website.git).
 
 ### 3. Azure Deployment Using ARM Templates
 - **Resource Group**: Created using Azure CLI to hold all the resources.
@@ -109,16 +109,16 @@ In an increasingly health-conscious society, individuals seek effective tools to
 - **Project Video**: [Project Video](https://drive.google.com/file/d/1RyNTaPkZvLWLOdgI584FnFTLeZhatIZL/view?usp=drive_link)
 - **Screenshots**:
   **Created Resource Group Screenshot**
-  - ![ResourceGroup Screenshot](fitness.jpg)
+  - ![ResourceGroup Screenshot](ProjectScreenshots/ResourceGroupSS.png)
     
   **ResourceGroup Deployment Command Output**
-  - ![RSG-Deployment-output Screenshot](./ProjectScreenshots/RSG-Deployment-output.png)
+  - ![RSG-Deployment-output Screenshot](ProjectScreenshots/RSG-Deployment-output.png)
 
   **VNet Subnets RSG ARM Template Output**
-  - ![VNetDeploymentoutputSS Screenshot](./ProjectScreenshots/VNetDeploymentoutputSS.png)
+  - ![VNetDeploymentoutputSS Screenshot](ProjectScreenshots/VNetDeploymentoutputSS.png)
 
    **Created VNet Screenshot** 
-  - ![VNetSS Screenshot](./ProjectScreenshots/VNetSS.png)
+  - ![VNetSS Screenshot](ProjectScreenshots/SubnetSS.png)
 
   **Created Subnets Screenshot**
   - ![SubnetSS Screenshot](./ProjectScreenshots/SubnetSS.png)
@@ -133,16 +133,16 @@ In an increasingly health-conscious society, individuals seek effective tools to
   - ![LoadbalancerSS Screenshot](./ProjectScreenshots/LoadbalancerSS.png)
 
   **Website Home Page Screenshot**
-  - ![closet.AIHomepage Screenshot](./ProjectScreenshots/closet.AIHomePage.png)
+  - ![closet.AIHomepage Screenshot](ProjectScreenshots/HomePage.png)
 
-  **Generate Outfits Page after complete Deployment**
-  - ![GenerateOutfitsPage Screenshot](./ProjectScreenshots/GenerateOutfitsPage.png)
+  **Health Tracker Page after complete Deployment**
+  - ![Health TrackerPage ](ProjectScreenshots/Healthtracker.png)
 
-  **Generated Outfits Page after complete Deployment**
-  - ![GeneratedOutfitsSS Screenshot](./ProjectScreenshots/GeneratedOutfitsSS.png)
+  **Fitness Regime Page after complete Deployment**
+  - ![Fitness Regime](ProjectScreenshots/Fitness Regime.png)
 
-  **About Us  Page after complete Deployment**
-  - ![AboutUsPage Screenshot](./ProjectScreenshots/AboutUsPage.png)
+  **Nutrition Planner  Page after complete Deployment**
+  - ![Nutrition Planner](ProjectScreenshots/Nutrition Planner.png)
 
 
 ## Conclusion
