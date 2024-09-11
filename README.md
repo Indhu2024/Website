@@ -105,8 +105,8 @@ In an increasingly health-conscious society, individuals seek effective tools to
 
 ## Live Website and Resources
 
-- **Website Link**: [Closet.AI](https://github.com/abdulrhmn02/Frontend-Closet.AI.git)
-- **Project Video**: [Project Video](https://drive.google.com/file/d/1zJa4tw-9f5ppTJUBjyvtMW24-qRc7OEk/view?usp=drive_link)
+- **Website Link**: [Healthcare Services](https://github.com/Indhu2024/Website.git)
+- **Project Video**: [Project Video](https://drive.google.com/file/d/1RyNTaPkZvLWLOdgI584FnFTLeZhatIZL/view?usp=drive_link)
 - **Screenshots**:
   **Created Resource Group Screenshot**
   - ![ResourceGroup Screenshot](./ProjectScreenshots/ResourceGroupSS.png)
@@ -147,9 +147,11 @@ In an increasingly health-conscious society, individuals seek effective tools to
 
 ## Conclusion
 
-This project showcases the end-to-end process of deploying a static website using Azure's ARM templates and load balancing capabilities. By distributing traffic between two VMs in different availability zones, we ensure high availability and scalability for the **Closet.AI** platform. The integration of Azure's powerful tools and services simplified the deployment and configuration process.
+This project showcases the end-to-end process of deploying a static website using Azure's ARM templates and load balancing capabilities. By distributing traffic between two VMs in different availability zones, we ensure high availability and scalability for the **Healthcare Services** platform. The integration of Azure's powerful tools and services simplified the deployment and configuration process.
 
 ## Author
 
-**Mohammed Abdul Rahman**  
-Deployed individually as part of learning Azure's cloud infrastructure.
+**Indhu Reddy Yerra**  
+**John Nikhil**
+**Charitha**
+Deployed all group members together as part of learning Azure's cloud infrastructure.
