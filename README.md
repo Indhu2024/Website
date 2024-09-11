@@ -109,7 +109,7 @@ In an increasingly health-conscious society, individuals seek effective tools to
 - **Project Video**: [Project Video](https://drive.google.com/file/d/1RyNTaPkZvLWLOdgI584FnFTLeZhatIZL/view?usp=drive_link)
 - **Screenshots**:
   **Created Resource Group Screenshot**
-  - ![ResourceGroup Screenshot](./ProjectScreenshots/ResourceGroupSS.png)
+  - ![ResourceGroup Screenshot](C:\Users\indhu\Desktop\ProjectScreenshots\RSG-Deployment-output.png)
     
   **ResourceGroup Deployment Command Output**
   - ![RSG-Deployment-output Screenshot](./ProjectScreenshots/RSG-Deployment-output.png)
