@@ -139,10 +139,10 @@ In an increasingly health-conscious society, individuals seek effective tools to
   - ![Health TrackerPage ](ProjectScreenshots/Healthtracker.png)
 
   **Fitness Regime Page after complete Deployment**
-  - ![Fitness Regime](ProjectScreenshots/Fitness Regime.png)
+  - ![Fitness Regime](ProjectScreenshots/FitnessRegime.png)
 
   **Nutrition Planner  Page after complete Deployment**
-  - ![Nutrition Planner](ProjectScreenshots/Nutrition Planner.png)
+  - ![Nutrition Planner ](ProjectScreenshots/NutritionPlanner.png)
 
 
 ## Conclusion
