@@ -21,7 +21,7 @@ In an increasingly health-conscious society, individuals seek effective tools to
 
 1. **Azure CLI**: Used to create the resource group and Virtual Network.
 2. **ARM Templates**: Automated the creation of VNet, subnets, and NSG.
-3. **Azure Virtual Machines (VMs)**: Hosted the Closet.AI website.
+3. **Azure Virtual Machines (VMs)**: Hosted the Healthcare Services website.
 4. **Azure Load Balancer**: Distributed the traffic between two VMs to ensure high availability.
 5. **Nginx**: Used as a web server on both VMs to serve the static content.
 6. **Git**: Cloned the website from GitHub onto the VMs using a custom script.
@@ -66,7 +66,7 @@ In an increasingly health-conscious society, individuals seek effective tools to
 ### 6. Testing and Accessing the Website
 - After the load balancer deployment, the website became accessible via the frontend IP of the load balancer. Users can interact with **Healthcare Services** to generate outfits from their clothing uploads.
 
-## How to Use Closet.AI
+## How to Use Healthcare Services
 
 ### 1. Health Tracker
 **Steps and Calories Burned:**
@@ -151,7 +151,10 @@ This project showcases the end-to-end process of deploying a static website usin
 
 ## Author
 
-**Indhu Reddy Yerra**  
+**Indhu Reddy Yerra** 
+
 **John Nikhil**
+
 **Charitha**
-Deployed all group members together as part of learning Azure's cloud infrastructure.
+
+- Deployed all group members together as part of learning Azure's cloud infrastructure.
