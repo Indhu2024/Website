@@ -64,7 +64,7 @@ In an increasingly health-conscious society, individuals seek effective tools to
   - **Health Probe**: Set up to monitor the health of the VMs and ensure traffic is routed only to healthy VMs.
 
 ### 6. Testing and Accessing the Website
-- After the load balancer deployment, the website became accessible via the frontend IP of the load balancer. Users can interact with **Healthcare Services** to generate outfits from their clothing uploads.
+- After the load balancer deployment, the website became accessible via the frontend IP of the load balancer. Users can interact with **Healthcare Services** to track and monitor their health.
 
 ## How to Use Healthcare Services
 
